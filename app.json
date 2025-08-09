@@ -1,29 +1,37 @@
 {
   "expo": {
-    "name": "lanchedescritivo",
+    "name": "Controle Lanchonete",
     "slug": "lanchedescritivo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#4CAF50"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#4CAF50"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.erivan.silva.lanchedescritivo"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/logo.png"
+    },
+    "primaryColor": "#4CAF50",
+    "extra": {
+      "eas": {
+        "projectId": "5dc9a328-73b5-40d8-9454-c7435c92f876"
+      }
     }
   }
 }

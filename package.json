@@ -1,19 +1,25 @@
 {
-  "name": "lanchedescritivo",
-  "license": "0BSD",
+  "name": "Controle de Gastos com Lanche",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "build:android": "eas build -p android",
+    "build:android:dev": "eas build -p android --profile development",
+    "build:ios": "eas build -p ios",
+    "prebuild": "expo prebuild"
   },
   "dependencies": {
-    "expo": "~53.0.20",
-    "expo-status-bar": "~2.2.3",
-    "react": "19.0.0",
-    "react-native": "0.79.5"
+    "expo": "~48.0.18",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-native": "0.71.14",
+    "@react-native-async-storage/async-storage": "1.17.11",
+    "@react-native-picker/picker": "2.4.8",
+    "@expo/vector-icons": "^13.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
